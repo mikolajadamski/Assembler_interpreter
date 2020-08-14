@@ -2,12 +2,8 @@ package Interpreter;
 
 import VirtualMemory.*;
 import Processes.*;
-import java.lang.reflect.Array;
 import java.util.Vector;
-/*
-DONE: AD, SB, ML, DV, IC, DC, MV,
-TODO: JN, JZ, JP, NF, OF, CF, DF
- */
+
 
 public class Interpreter {
     private int AX, BX, CX, DX, PID;

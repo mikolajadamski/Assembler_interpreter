@@ -4,7 +4,6 @@ import Processes.*;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.io.File;
-import java.util.Vector;
 
 public class main {
 
@@ -12,8 +11,6 @@ public class main {
     {
         Scanner sc = new Scanner(System.in);
         int result=0;
-        //String program = "MV AX 5 MV BX 10 ML AX BX PR AX EX";
-        //VirtualMemory.VirtualMemory.loadProgram(program);
         Interpreter it = new Interpreter();
         while (true)
         {
