@@ -1,0 +1,20 @@
+Program 1 - rozpisany - czy trójkąt jest prostokątny - wprowadzenie długości
+boków do rejestrów z pamięci,
+ podniesienie ich do kwadratu i porównianie czy a^2+b^2=c^2,
+zapis odpowiedzi do pliku, 1-prawda, 0-fałsz.
+MV AX [114]	0
+MV BX [117]	12
+MV CX [120]	25
+ML AX AX	37
+ML BX BX	46
+ML CX CX	55
+AD AX BX	64
+EQ AX CX DX	73
+NF p5		85
+OF p5		91
+WF p5 DX	97
+CF p5		106
+EX		112
+data1		115
+data2		118
+data3		121
